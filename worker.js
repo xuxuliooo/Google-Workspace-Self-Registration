@@ -20,7 +20,7 @@ async function handleRequest(request) {
  * 提供注册表单的 HTML，并集成 Cloudflare Turnstile 验证码
  */
 function serveRegistrationForm() {
-  const emailDomain = EMAIL_DOMAIN || '@chatgpt.nyc.mn'
+  const emailDomain = EMAIL_DOMAIN || '@dingtalk.me'
   const html = `
   <!DOCTYPE html>
   <html>
